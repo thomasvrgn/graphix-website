@@ -4,8 +4,17 @@
 ** Docs: https://tailwindcss.com/docs/configuration
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
+const { colors } = require('tailwindcss/defaultTheme')
 module.exports = {
-  theme: {},
+  theme: {
+    colors: {
+      ...colors,
+      gray: {
+        ...colors.gray,
+        '1000': '#212932'
+      }
+    }
+  },
   variants: {
     accessibility: ['responsive', 'focus', 'group-hover'],
     alignContent: ['responsive', 'group-hover'],
@@ -123,5 +132,8 @@ module.exports = {
       'plugins/**/*.js',
       'nuxt.config.js'
     ]
+  },
+  future: {
+    removeDeprecatedGapUtilities: true
   }
 }

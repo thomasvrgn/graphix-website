@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-700 -mt-16 pt-24">
+  <div class="bg-gray-1000 -mt-16 pt-24">
     <div class="container flex flex-col mx-auto text-center pb-16">
       <h1 class="text-base text-white uppercase font-semibold">
         Clients we worked with
