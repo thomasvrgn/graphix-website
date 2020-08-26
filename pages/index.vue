@@ -23,6 +23,9 @@ export default Vue.extend({
     Technologies,
     Informations,
     Footer
+  },
+  mounted: function () {
+    this.$store.dispatch('apiFetching/fetchAPI')
   }
 })
 </script>

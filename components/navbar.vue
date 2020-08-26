@@ -35,18 +35,27 @@
 <script lang="ts">
 import Vue from 'vue'
 import Burger from '~/components/burger.vue'
+// import { EventBus } from '~/plugins/event-bus'
 
 export default Vue.extend({
   components: {
     Burger
   },
   data: () => ({
-    opened: false
+    opened: false,
   }),
   methods: {
     openNavbar: function (): void {
       this.opened = !this.opened
     }
+  },
+  mounted: function () {
+    // EventBus.$on('APIfetched', () => {
+    //   for (const value in this.$store.state.apiFetching) {
+    //     if (value !== 'apiInformations') continue
+    //     this.members = this.$store.state.apiFetching[value].member
+    //   }
+    // })
   }
 })
 </script>
