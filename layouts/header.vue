@@ -3,14 +3,14 @@
     <navbar />
     <div class="min-h-screen flex flex-row w-full">
       <div class="flex flex-auto w-1/2 flex-col items-center justify-center">
-        <div class="container mx-auto text-center">
+        <div class="container mx-auto text-center lg:text-left">
           <h1 class="text-3xl font-semibold text-white w-1/2 mx-auto">
             We build strong and reliable software solutions
           </h1>
           <p class="text-gray-400 text-sm my-4 w-1/2 mx-auto">
             We strongly believe that communication, trust and transparency are the essential elements of successful business relationship. Ready for the journey?
           </p>
-          <div class="container space-x-4 mt-8 flex flex-row justify-center">
+          <div class="container space-x-4 mt-8 flex flex-row justify-center w-1/2 mx-auto lg:justify-start">
             <button class="border border-gray-500 rounded py-2 px-8 text-gray-500 hover:border-white hover:text-white transition-colors duration-200 flex flex-row">
               Learn more
             </button>
@@ -25,7 +25,7 @@
           </div>
         </div>
       </div>
-      <div class="hidden flex-auto w-1/2">
+      <div class="hidden flex-auto w-1/2 lg:flex">
         <img src="~/assets/background.png" class="w-full object-cover" alt="">
       </div>
     </div>
