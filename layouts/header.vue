@@ -12,11 +12,15 @@
           </p>
           <div class="container space-y-4 md:space-y-0 md:space-x-4 mt-8 flex flex-col md:flex-row justify-center w-11/12 md:w-1/2 mx-auto lg:w-2/3 lg:justify-start">
             <button class="border border-gray-500 rounded py-2 px-8 text-gray-500 hover:border-white hover:text-white transition-colors duration-200 flex flex-row mx-auto xl:mx-0">
-              Support
+              <a href="https://discord.gg/vaN9hFt">
+                Support
+              </a>
             </button>
             <button class="border font-medium border-purple-400 rounded py-2 px-6 text-white bg-purple-400 transition-colors duration-200 flex flex-row group mx-auto xl:mx-0">
               <span class="flex flex-auto items-center">
-                Inviter le bot
+                <a href="https://discord.com/api/oauth2/authorize?client_id=745616349014786109&permissions=2081422583&scope=bot">
+                  Inviter le bot
+                </a>
               </span>
               <span class="flex flex-initial items-center ml-2 group-hover:ml-4 transition-all duration-200">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z" fill="currentColor" /></svg>
