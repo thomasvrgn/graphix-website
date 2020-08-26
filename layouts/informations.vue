@@ -4,7 +4,7 @@
       <h1 class="text-2xl font-semibold text-white">
         Get in touch with us
       </h1>
-      <p class="text-gray-200 text-base w-1/2 my-4 mx-auto xl:mx-0">
+      <p class="text-gray-200 text-base w-11/12 md:w-1/2 my-4 mx-auto xl:mx-0">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos, modi quas fugiat perspiciatis eos magnam exercitationem aperiam.
       </p>
       <div class="container mt-4 mx-auto">
@@ -17,7 +17,7 @@
       <h1 class="text-2xl font-semibold text-white">
         Get in touch with us
       </h1>
-      <p class="text-gray-200 text-base w-1/2 my-4 mx-auto xl:mx-0">
+      <p class="text-gray-200 text-base w-11/12 md:w-1/2 my-4 mx-auto xl:mx-0">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos, modi quas fugiat perspiciatis eos magnam exercitationem aperiam.
       </p>
       <div class="container mt-4 mx-auto">

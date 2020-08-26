@@ -3,18 +3,18 @@
     <navbar />
     <div class="min-h-screen flex flex-row w-full">
       <div class="flex flex-auto w-1/2 flex-col items-center justify-center">
-        <div class="container mx-auto text-center lg:text-left">
-          <h1 class="text-3xl font-semibold text-white w-1/2 lg:w-2/3 mx-auto lg:text-5xl">
+        <div class="container mx-auto text-center lg:text-left my-32">
+          <h1 class="text-3xl font-semibold text-white w-11/12 md:w-1/2 lg:w-2/3 mx-auto lg:text-5xl">
             We build strong and reliable software solutions
           </h1>
-          <p class="text-gray-400 text-sm my-4 w-1/2 lg:w-2/3 mx-auto lg:text-base">
+          <p class="text-gray-400 text-sm my-4 w-11/12 md:w-1/2 lg:w-2/3 mx-auto lg:text-base">
             We strongly believe that communication, trust and transparency are the essential elements of successful business relationship. Ready for the journey?
           </p>
-          <div class="container space-x-4 mt-8 flex flex-row justify-center w-1/2 mx-auto lg:w-2/3 lg:justify-start">
-            <button class="border border-gray-500 rounded py-2 px-8 text-gray-500 hover:border-white hover:text-white transition-colors duration-200 flex flex-row">
+          <div class="container space-y-4 md:space-y-0 md:space-x-4 mt-8 flex flex-col md:flex-row justify-center w-11/12 md:w-1/2 mx-auto lg:w-2/3 lg:justify-start">
+            <button class="border border-gray-500 rounded py-2 px-8 text-gray-500 hover:border-white hover:text-white transition-colors duration-200 flex flex-row mx-auto">
               Learn more
             </button>
-            <button class="border font-medium border-purple-400 rounded py-2 px-6 text-white bg-purple-400 transition-colors duration-200 flex flex-row group">
+            <button class="border font-medium border-purple-400 rounded py-2 px-6 text-white bg-purple-400 transition-colors duration-200 flex flex-row group mx-auto">
               <span class="flex flex-auto items-center">
                 Our Projects
               </span>
