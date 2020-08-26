@@ -13,7 +13,7 @@
         </button>
       </div>
     </div>
-    <div class="flex flex-auto flex-col bg-indigo-300 py-8 px-6 rounded-lg text-center w-2/3 mx-auto">
+    <div class="flex flex-auto flex-col bg-purple-400 py-8 px-6 rounded-lg text-center w-2/3 mx-auto">
       <h1 class="text-2xl font-semibold text-white">
         Get in touch with us
       </h1>
