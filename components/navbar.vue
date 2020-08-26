@@ -11,7 +11,7 @@
           <burger @click=openNavbar :opened=opened />
         </div>
       </div>
-      <div class="flex flex-auto mt-4 flex-col list-none xl:flex-row space-y-2 xl:space-y-0 xl:space-x-2 xl:justify-center xl:items-center xl:mt-0 font-medium text-gray-500" :class="{'hidden xl:flex': !opened}">
+      <div class="flex flex-auto mt-4 flex-col list-none xl:flex-row space-y-2 xl:space-y-0 xl:space-x-2 xl:justify-center xl:items-center xl:mt-0 font-medium text-gray-500 text-center" :class="{'hidden xl:flex': !opened}">
         <li class="cursor-pointer hover:text-gray-300 hover:bg-gray-700 xl:hover:bg-transparent px-2 py-1 rounded">
           home
         </li>
@@ -28,7 +28,7 @@
           about
         </li>
       </div>
-      <div class="flex flex-auto flex-col xl:mt-0 xl:items-center list-none mt-4 text-white xl:flex-initial xl:flex-row" :class="{'hidden xl:flex': !opened}">
+      <div class="flex flex-auto flex-col xl:mt-0 xl:items-center list-none mt-4 text-white xl:flex-initial xl:flex-row text-center" :class="{'hidden xl:flex': !opened}">
         <li>
           <button class="bg-purple-400 rounded font-medium py-2 px-8 hover:bg-purple-500 transition-colors duration-200 xl:bg-transparent xl:hover:bg-transparent">
             hire us
