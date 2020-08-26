@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed lg:absolute w-full bg-gray-800 lg:bg-transparent">
+  <nav class="fixed lg:absolute w-full bg-gray-800 lg:bg-transparent lg:py-8">
     <div class="container flex flex-col mx-auto py-4 px-4 lg:flex-row">
       <div class="flex flex-auto flex-row lg:flex-initial lg:items-center">
         <div class="flex flex-auto items-center text-2xl">
