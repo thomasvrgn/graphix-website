@@ -1,5 +1,5 @@
 <template>
-  <div class="container flex flex-auto flex-col justify-center mx-auto">
+  <div class="container flex flex-auto flex-col justify-center mx-auto z-50">
     <div class="container mx-auto text-center">
       <h1 class="text-white font-semibold text-4xl">
         Our Solutions
