@@ -4,6 +4,7 @@
     <Clients />
     <Technologies />
     <Informations />
+    <Footer />
   </div>
 </template>
 
@@ -13,13 +14,15 @@ import Header from '~/layouts/header.vue'
 import Clients from '~/layouts/clients.vue'
 import Technologies from '~/layouts/technologies.vue'
 import Informations from '~/layouts/informations.vue'
+import Footer from '~/layouts/footer.vue'
 
 export default Vue.extend({
   components: {
     Header,
     Clients,
     Technologies,
-    Informations
+    Informations,
+    Footer
   }
 })
 </script>
